@@ -92,7 +92,7 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -252,11 +252,17 @@ a.sidebar-nav-item:focus {
 .theme-base-ld .sidebar {
   background-color: #333;
 }
+
 .theme-base-ld .content a,
 .theme-base-ld .related-posts li a:hover,
 .theme-base-ld .sidebar-about h1 a,
-.theme-base-ld a.sidebar-nav-item:hover {
+.theme-base-ld a.sidebar-nav-item:hover,
+.theme-base-ld .post-title a:hover {
   color: #F1304D;
+  -webkit-transition: color 0.25s linear, border-color 0.25s linear;
+  -moz-transition: color 0.25s linear, border-color 0.25s linear;
+  -ms-transition: color 0.25s linear, border-color 0.25s linear;
+  transition: color 0.25s linear, border-color 0.25s linear !important;
 }
 
 .theme-base-ld .content a,
@@ -264,6 +270,8 @@ a.sidebar-nav-item:focus {
   color: #303030;
 }
 
-# TODO: Workout that nice colour transition I do elsewhere
-.theme-base-ld a.sidebar-nav-item:hover {
+.theme-base-ld .sidebar .meta {
+  font-size: 10px;
 }
+
+.theme-base-ld a:hover { text-decoration: none; }
