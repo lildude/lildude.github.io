@@ -25,10 +25,8 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <span class="sidebar-nav-item version">Currently v{{ site.version }}</span>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p class="meta">&copy; {{ site.author.name}} {{ site.time | date: '%Y' }}. All rights reserved. (v{{ site.version }})</p>
   </div>
 </div>
