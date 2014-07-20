@@ -247,3 +247,23 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* lildude's grey & pinkish */
+.theme-base-ld .sidebar {
+  background-color: #333;
+}
+.theme-base-ld .content a,
+.theme-base-ld .related-posts li a:hover,
+.theme-base-ld .sidebar-about h1 a,
+.theme-base-ld a.sidebar-nav-item:hover {
+  color: #F1304D;
+}
+
+.theme-base-ld .content a,
+.theme-base-ld .related-posts li a:hover {
+  color: #303030;
+}
+
+# TODO: Workout that nice colour transition I do elsewhere
+.theme-base-ld a.sidebar-nav-item:hover {
+}
