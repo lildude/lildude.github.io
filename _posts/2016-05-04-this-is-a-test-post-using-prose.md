@@ -1,5 +1,9 @@
 ---
 published: false
+layout: post
+tags: 
+  - foo
+  - boo
 ---
 ## This is a test post using Prose.io
 
