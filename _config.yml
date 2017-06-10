@@ -1,7 +1,3 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
-
 # Permalinks
 permalink:        :title
 
@@ -10,13 +6,20 @@ title:            lildude
 tagline:          "GitHub's own lildude"
 description:      "I'll come up with a whitty tagline one day"
 url:              http://lildude.github.io
-baseurl:          /
+baseurl:
 
-author:
-  name:           'Colin Seymour'
-  url:            https://twitter.com/lildude
+author:           'Colin Seymour'
+github_username:  lildude
+twitter_username: lildude
 
 paginate:         5
+
+theme: minima
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
 
 # Custom vars
 version:          0.0.1
