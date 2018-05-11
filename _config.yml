@@ -12,14 +12,20 @@ author:           'Colin Seymour'
 github_username:  lildude
 twitter_username: lildude
 
-paginate:         5
+micropub_endpoint:  https://micropubbing.herokuapp.com/micropubbing/main
 
-theme: minima
+paginate:         15
 
-gems:
-  - jekyll-paginate
+theme: minima-dude
+
+kramdown:
+  input:            GFM
+  smart_quotes:     ["apos", "apos", "quot", "quot"]  # Don't do smart quoting by replacing like for like.
+
+plugins:
   - jekyll-gist
   - jekyll-feed
+  - jekyll-paginate
 
 # Custom vars
 version:          0.0.1
