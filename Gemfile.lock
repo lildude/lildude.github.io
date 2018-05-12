@@ -1,9 +1,3 @@
-PATH
-  remote: /Users/lildude/Sites/static/minima-dude
-  specs:
-    minima-dude (1.0.0)
-      jekyll (~> 3.5)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -254,7 +248,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-paginate
-  minima-dude!
+  minima
 
 BUNDLED WITH
    1.16.1

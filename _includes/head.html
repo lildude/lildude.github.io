@@ -1,0 +1,16 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- if site.micropub_endpoint -%}
+  <link rel="micropub" href="{{ site.micropub_endpoint }}">
+  <link rel="authorization_endpoint" href="{{ site.micropub_authorization_endpoint | default: "https://indieauth.com/auth" }}">
+  <link rel="token_endpoint" href="{{ site.micropub_token_endpoint | default: "https://tokens.indieauth.com/token" }}">
+  {%- endif -%}
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>

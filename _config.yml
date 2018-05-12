@@ -16,7 +16,7 @@ micropub_endpoint:  https://micropubbing.herokuapp.com/micropubbing/main
 
 paginate:         15
 
-theme: minima-dude
+theme: minima
 
 kramdown:
   input:            GFM
