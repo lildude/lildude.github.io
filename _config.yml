@@ -12,7 +12,7 @@ author:           'Colin Seymour'
 github_username:  lildude
 twitter_username: lildude
 
-micropub_endpoint:  https://micropubbing.herokuapp.com/micropub/main
+micropub_endpoint:  https://micropubbing.herokuapp.com/micropub/lildude.github.io
 
 paginate:         15
 
