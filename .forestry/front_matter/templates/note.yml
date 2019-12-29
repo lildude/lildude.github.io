@@ -5,6 +5,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  default: Note
 - type: list
   name: tags
   label: tags
@@ -14,3 +16,5 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
+  default: now
